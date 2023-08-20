@@ -1,0 +1,139 @@
+/* CS RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+html{
+    scroll-behavior: smooth;
+    background-color: rgb(82, 81, 81);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+/* MainContent */
+
+.main-content{
+    margin-right: 8%;
+    padding-top: 45px;
+    padding-bottom: 35px;
+    padding-left: 25px;
+    width: 350%;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: monospace;
+}
+
+.pic-of-me img{
+    width: 50%;
+    margin-left: 30%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.whiteboard {
+    height: 100%;
+    width: 50%;
+    margin-top: 3%;
+    margin-left: 26%;
+    display: flex;
+    background-image: url(Assets/Background\ Doggos.png);
+    background-size: cover;
+    border-radius: 30px;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.whiteboard:hover{
+    transform: translateY(-10px);
+}
+
+.loves h2{
+    margin-top: 1%;
+}
+
+.hates h2{
+    margin-top: 1%;
+}
+
+/* IDidIt! */
+
+.experiences-me{
+    height: 365px;
+    width: 50%;
+    margin-left: 26%;
+    margin-top: 3%;
+    font-family: monospace;
+    background-image: url(Assets/Background\ Doggos.png);
+    background-size: cover;
+    border-radius: 30px;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    color: white;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.experiences-me:hover{
+    transform: translateY(-10px);
+}
+
+.know-obn a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Footer */
+.lets-talk{
+    font-family: monospace;
+    display: flex;
+    background-image: url(Assets/Background\ Doggos.png);
+    background-size: cover;
+    margin-top: 3%;
+    margin-left: 26%;
+    margin-right: 24%;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    justify-content: center;
+    gap: 75px;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.lets-talk:hover{
+    transform: translateY(-10px);
+}
+.heading-talk h2{
+    color: white;
+    font-weight: 25px;
+    padding-bottom: 7px;
+    padding-top: 5px;
+}
+
+.instagram-logo a{
+    display: flex;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 7px;
+    padding-top: 5px;
+}
